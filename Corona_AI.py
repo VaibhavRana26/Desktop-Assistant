@@ -53,10 +53,10 @@ while True:
 
        # Logic for executing tasks based on query
     if 'wikipedia' in query:
-           speak("Searching Wikipedia...")
+           speak("Searching in Wikipedia...")
            query = query.replace('wikipedia','')
            results = wikipedia.summary(query, sentences=2)
-           speak("According to Wikipedia...")
+           speak("According to the Wikipedia...")
            print(results)
            speak(results)
      
